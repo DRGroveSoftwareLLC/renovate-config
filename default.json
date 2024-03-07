@@ -1,0 +1,9 @@
+{
+  "extends": [
+    "config:base",
+    ":label(renovate)",
+    ":automergeDisabled",
+		":dependencyDashboard",
+		"docker:pinDigests"
+  ]
+}
